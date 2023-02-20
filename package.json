@@ -1,0 +1,17 @@
+{
+  "name": "slot-game",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "app.js",
+  "dependencies": {
+    "howler": "^2.1.1",
+    "pixi-game": "^0.1.11",
+    "pixi.js": "^4.8.4",
+    "browser-sync": "^2.26.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync -s -w -f '*.js'"
+  }
+}
